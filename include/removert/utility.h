@@ -67,9 +67,11 @@
 #include <thread>
 #include <mutex>
 
-#include <filesystem> // requires gcc version >= 8
+// #include <filesystem> // requires gcc version >= 8
+#include <experimental/filesystem>
 
-namespace fs = std::filesystem;
+// namespace fs = std::filesystem; // requires gcc version >= 8
+namespace fs = std::experimental::filesystem;
 using std::ios;
 using std::cout;
 using std::cerr;
