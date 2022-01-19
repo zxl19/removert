@@ -41,7 +41,7 @@ removert:
   #   it means we parse scans every <keyframe_gap> or <keyframe_gap_meter> meter within the idx range [start_idx, end_idx]
   #   but for a single batch, < 100 scans are recommended for the computation speed.
   start_idx: 0 # change this
-  end_idx: 300 # change this
+  end_idx: 9999 # change this
 
 
   # @ auto repeat
